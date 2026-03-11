@@ -1,0 +1,23 @@
+<div class="app-shell">
+  <header class="topbar">
+    <div class="brand-group">
+      <img class="brand-logo" src="/assets/img/logo2.jpg" alt="Logo Ismerely" />
+      <div class="brand-logos" aria-hidden="true">
+        <img src="/assets/img/logo1.jpg" alt="" />
+        <img src="/assets/img/logo3.jpg" alt="" />
+      </div>
+    </div>
+    <nav class="menu" aria-label="Main navigation">
+      <a routerLink="/home" routerLinkActive="active" aria-label="Inicio"></a>
+      <a
+        routerLink="/diccionario"
+        routerLinkActive="active"
+        aria-label="Diccionario"
+      ></a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <router-outlet />
+  </main>
+</div>
